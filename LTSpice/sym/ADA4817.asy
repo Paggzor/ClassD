@@ -1,0 +1,44 @@
+Version 4
+SymbolType CELL
+LINE Normal -32 -48 48 0
+LINE Normal -32 48 48 0
+LINE Normal -32 -48 -32 48
+LINE Normal -28 -16 -20 -16
+LINE Normal -28 16 -20 16
+LINE Normal -24 20 -24 12
+LINE Normal -16 -48 -16 -38
+LINE Normal -20 -29 -12 -29
+LINE Normal -16 -33 -16 -25
+LINE Normal -20 32 -12 32
+LINE Normal -16 48 -16 38
+LINE Normal 16 -19 16 -48
+LINE Normal 32 -16 48 -16
+LINE Normal 32 0 32 -16
+LINE Normal 48 0 32 0
+WINDOW 0 32 -40 Left 2
+WINDOW 3 32 40 Left 2
+SYMATTR Value ADA4817
+SYMATTR Prefix X
+SYMATTR Description 410 GBW, 2ns output overdrive recovery
+SYMATTR ModelFile ADA4817.lib
+PIN -32 16 NONE 0
+PINATTR PinName In+
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 0
+PINATTR PinName In-
+PINATTR SpiceOrder 2
+PIN -16 -48 NONE 0
+PINATTR PinName V+
+PINATTR SpiceOrder 3
+PIN -16 48 NONE 0
+PINATTR PinName V-
+PINATTR SpiceOrder 4
+PIN 48 0 NONE 0
+PINATTR PinName OUT
+PINATTR SpiceOrder 5
+PIN 48 -16 NONE 8
+PINATTR PinName FB
+PINATTR SpiceOrder 6
+PIN 16 -48 TOP 0
+PINATTR PinName EN
+PINATTR SpiceOrder 7
