@@ -1,0 +1,31 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -8 16 -8 -16
+LINE Normal 16 16 16 32
+LINE Normal 0 -16 0 16
+LINE Normal 16 -16 0 -16
+LINE Normal 16 -32 16 -16
+LINE Normal -16 0 -8 0
+LINE Normal 26 0 32 -8
+LINE Normal 37 0 26 0
+LINE Normal 32 -8 37 0
+LINE Normal 32 -16 32 -8
+LINE Normal 16 -16 32 -16
+LINE Normal 32 0 32 16
+LINE Normal 32 16 16 16
+LINE Normal 37 -8 26 -8
+LINE Normal 16 16 0 16
+WINDOW 38 74 30 Center 0
+WINDOW 0 32 -32 Left 0
+SYMATTR Prefix X
+SYMATTR SpiceModel FDP150N10A_F102
+SYMATTR ModelFile FDP150N10A_F102.lib
+PIN 16 -32 NONE 8
+PINATTR PinName D
+PINATTR SpiceOrder 1
+PIN -16 0 NONE 8
+PINATTR PinName G
+PINATTR SpiceOrder 2
+PIN 16 32 NONE 8
+PINATTR PinName S
+PINATTR SpiceOrder 3
